@@ -25,10 +25,6 @@ resource "aws_security_group" "focal_sg" {
   }
 }
  
-
-
-
-
 resource "aws_instance" "focal_ec2" {
   ami                         = var.ami_id
   instance_type               = var.instance_type
